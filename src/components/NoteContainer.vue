@@ -11,7 +11,8 @@ export default {
 </script>
 
 <template>
-  <NoteSelectors />
-  <NoteEditor />
-  <div class="note-container"></div>
+  <div class="note-container">
+    <NoteSelectors />
+    <NoteEditor />
+  </div>
 </template>
